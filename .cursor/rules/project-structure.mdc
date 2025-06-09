@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+- The main entry point for the app is [app/page.tsx](mdc:app/page.tsx), with the root layout defined in [app/layout.tsx](mdc:app/layout.tsx).
+- Global styles are defined in [app/globals.css](mdc:app/globals.css), using Tailwind CSS and tw-animate-css.
+- Reusable UI components are located in [components/ui/](mdc:components/ui), with each file representing a different UI element (e.g., button, dialog, table).
+- General-purpose React components can be placed in [components/](mdc:components).
+- Custom React hooks are stored in [hooks/](mdc:hooks), such as [use-mobile.ts](mdc:hooks/use-mobile.ts).
+- Utility functions are placed in [lib/utils.ts](mdc:lib/utils.ts).
+- Project-wide configuration files include:
+  - [package.json](mdc:package.json) for dependencies and scripts
+  - [tsconfig.json](mdc:tsconfig.json) for TypeScript configuration and path aliases (e.g., `@/components` → `components/`)
+  - [next.config.ts](mdc:next.config.ts) for Next.js configuration
+  - [postcss.config.mjs](mdc:postcss.config.mjs) for PostCSS plugins (including Tailwind)
+  - [eslint.config.mjs](mdc:eslint.config.mjs) for ESLint setup
+- The [components.json](mdc:components.json) file configures shadcn/ui and defines path aliases for components, utils, ui, lib, and hooks.
+- To start the development server, use `bun dev`, `npm run dev`, `yarn dev`, or `pnpm dev`.
+- The project uses Next.js 15, React 19, and TypeScript.
+- For more details, see [README.md](mdc:README.md).
