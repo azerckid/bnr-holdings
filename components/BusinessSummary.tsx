@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function BusinessSummary() {
     return (
         <section>
-            <h2 className="text-2xl font-bold text-center mt-12 mb-6">주요사업구조</h2>
+            <h2 className="text-2xl font-bold text-center text-blue-700 mt-12 mb-6">주요사업구조</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card className="h-full">
                     <CardContent className="flex flex-col justify-between h-[320px] min-h-[320px]">

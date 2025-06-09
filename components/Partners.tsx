@@ -168,7 +168,7 @@ const ReviewCard = ({
 export function Partners() {
     return (
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-            <h2 className="text-2xl font-bold text-center mt-16 mb-8">주요 파트너사</h2>
+            <h2 className="text-2xl font-bold text-center mt-16 mb-8 text-blue-700">주요 파트너사</h2>
             <Marquee pauseOnHover className="[--duration:40s]">
                 {firstRow.map((review, idx) => (
                     <ReviewCard key={review.name + '-' + idx} {...review} />

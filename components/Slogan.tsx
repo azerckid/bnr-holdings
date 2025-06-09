@@ -6,10 +6,10 @@ export default function Slogan() {
             <div className="absolute inset-0 w-full h-full bg-[url('/sloganImage.jpeg')] bg-cover bg-center" />
             <div className="absolute inset-0 w-full h-full bg-white/80" />
             <div className="relative z-10 flex items-center justify-center w-full h-full">
-                <Card className="bg-transparent shadow-none w-full h-full flex items-center justify-center">
+                <Card className="bg-transparent shadow-none w-full h-full flex items-center justify-center border-none">
                     <div className="w-full">
                         <CardHeader>
-                            <CardTitle className="text-4xl md:text-6xl font-extrabold text-center break-keep mb-6">
+                            <CardTitle className="text-4xl md:text-6xl font-extrabold text-center break-keep mb-6 text-blue-800">
                                 글로벌 유통과 물류의 미래,   <div className="h-2" /> BNR Holdings
                             </CardTitle>
                         </CardHeader>

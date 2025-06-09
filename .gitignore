@@ -67,3 +67,6 @@ tasks/
 .cursor/
 .roo/
 .taskmaster/
+
+# clerk configuration (can include secrets)
+/.clerk/
