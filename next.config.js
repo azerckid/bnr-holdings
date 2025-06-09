@@ -1,6 +1,6 @@
 const nextConfig = {
     images: {
-        domains: ["placehold.co"],
+        domains: ["placehold.co", 'avatar.vercel.sh'],
     },
 };
 
